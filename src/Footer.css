@@ -1,0 +1,154 @@
+.footer {
+  background-color: rgb(249, 247, 247);
+  color: black;
+  padding: 50px 20px 20px;
+ 
+  height: 320px;
+  margin-top: 30px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 70%;
+}
+
+.footer-brand h2 {
+  color: #ff2e63;
+  margin-bottom: 10px;
+}
+
+.footer-brand p{
+    max-width: 400px;
+    text-align: justify;
+}
+
+.footer-links ul,
+.footer-contact p,
+.footer-brand p {
+  margin: 8px 0;
+  color: black;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding-top: 10px;
+}
+
+.footer-links li{
+    padding-bottom: 6px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ff2e63;
+}
+
+.footer-contact p {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.footer-social .social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.footer-social a {
+  color:black;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  padding-top: 10px;
+}
+
+.footer-social a:hover {
+  color: #ff2e63;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  font-size: 14px;
+  color: black;
+}
+
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 20px 15px 15px;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: auto;
+  }
+
+  .footer-brand h2 {
+    font-size: 14px;
+  }
+
+  .footer-brand p {
+    font-size: 12px;
+    line-height: 14px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer-links h3,
+  .footer-contact h3,
+  .footer-social h3 {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+
+  .footer-links ul {
+    padding-left: 0;
+  }
+
+  .footer-links li {
+    font-size: 12px;
+    margin-bottom: 2px;
+    padding: 1px;
+  }
+
+  .footer-links a {
+    display: inline-block;
+  }
+
+  .footer-contact p {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 1px;
+  }
+
+  .footer-social .social-icons {
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+

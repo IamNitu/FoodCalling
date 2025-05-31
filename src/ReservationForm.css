@@ -1,0 +1,160 @@
+.reservation-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  font-family: 'Poppins', sans-serif;
+   height: 340px;
+}
+
+
+.reservation-left {
+    position: relative;
+    left: 1%;
+  width: 50%;
+}
+
+
+.section-label {
+  color: #ff2e63;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  /* width: 1200px; */
+  font-size: 38px;
+  font-weight:800;
+  margin-bottom: 40px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon-circle {
+  background-color: #ffd700;
+  border-radius: 50%;
+  padding: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.label {
+  color: #ff2e63;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.text {
+  color: #333;
+  font-weight: 500;
+}
+
+.reservation-form {
+    position: relative;
+    right: 3%;
+    top: 120px !important;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reservation-form input {
+  padding: 15px;
+  border: 1px solid rgb(169, 156, 156);
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.row {
+    width: 740px;
+  display: flex;
+  gap: 10px;
+}
+
+.book-now {
+  background-color: #ff2e63;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: flex-end;
+  box-shadow: 2px 4px 0px 0px #c2184c;
+  transition: transform 0.2s ease;
+}
+
+.book-now:hover {
+  transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 480px) {
+  .reservation-container {
+    flex-direction: column;
+    padding: 15px;
+    height: auto;
+  }
+
+  .reservation-left, .reservation-form {
+    width: 100%;
+    position: static;
+  }
+
+  .reservation-left p{
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .reservation-form {
+    top: 0 !important;
+    gap: 10px;
+    width: 93%;
+  }
+
+  .row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .reservation-form input {
+    font-size: 12px;
+    padding: 12px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .book-now {
+    position: relative;
+    left: 3.5%;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+  }
+
+  .contact-item {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .icon-circle {
+    padding: 10px;
+    margin-right: 10px;
+    height: 20px;
+  }
+
+  .label, .text {
+    font-size: 14px;
+  }
+}

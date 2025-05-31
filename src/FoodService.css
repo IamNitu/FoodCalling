@@ -1,0 +1,216 @@
+.foodservice{
+    height: 650px;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.foodservice-component{
+    position: relative;
+    left: 3.5%;
+    height: 100%;
+    width: 92.5%;
+   
+    display: flex;
+}
+
+.foodservice-options{
+    height: 100%;
+    width: 70%;
+    
+}
+.foodservice-img{
+    height: 100%;
+    width: 30%;
+   
+}
+
+.foodservice-img img{
+    height: 100%;
+    width: 100%;
+    background: cover;
+}
+
+.foodservice-header{
+height: 15%;
+width: 100%;
+
+}
+
+.foodservice-header p{
+    position: relative;
+    top: 5%;
+  color: #10b981;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+.foodservice-header h1{
+  position: relative;
+    top: 5%;
+    max-width: 350px;
+    font-size: 2.4rem;
+
+}
+
+.foodservice-body{
+height: 85%;
+width: 100%;
+
+}
+
+.foodservice-1{
+    height: 50%;
+    width: 100%;
+  
+    display: flex;
+}
+
+.service-1{
+        height: 100%;
+    width: 50%;
+    
+}
+.service-2{
+        height: 100%;
+    width: 50%;
+   
+}
+.foodservice-2{
+    height: 50%;
+    width: 100%;
+    
+    display: flex;
+}
+
+.service-3{
+        height: 100%;
+    width: 50%;
+  
+}
+.service-4{
+        height: 100%;
+    width: 50%;
+    
+}
+
+.service-1 h3,.service-2 h3, .service-3 h3 , .service-4 h3{
+    position: relative;
+    top: 20%;
+    left:25%
+}
+.service-1 p,.service-2 p, .service-3 p , .service-4 p{
+    position: relative;
+    top: 25%;
+    left:25%;
+    font-size: 0.9rem;
+    max-width: 300px;
+    text-align: justify;
+}
+
+.service-1 img,.service-2 img, .service-3 img, .service-4 img{
+    position: relative;
+    top: 15%;
+    left: 25%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 480px) {
+  .foodservice {
+    height: auto;
+    padding: 0;
+  }
+
+  .foodservice-component {
+    flex-direction: column-reverse;
+    width: 100%;
+    left: 0;
+  }
+
+  .foodservice-options {
+    position: relative;
+    top: 12px;
+    left: 5%;
+    width: 90%;
+  }
+
+  .foodservice-img {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+  }
+
+  .foodservice-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+   .foodservice-header p{
+    padding-top: 5px;
+    font-size: 12px;
+   }
+  .foodservice-header h1 {
+    font-size: 14px;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .foodservice-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .foodservice-1,
+  .foodservice-2 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .service-1,
+  .service-2,
+  .service-3,
+  .service-4 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .service-1 img,
+  .service-2 img,
+  .service-3 img,
+  .service-4 img {
+    top: 0;
+    left: 0;
+    position: static;
+    margin: 0 auto 12px;
+    display: block;
+  }
+
+  .service-1 h3,
+  .service-2 h3,
+  .service-3 h3,
+  .service-4 h3 {
+    position: static;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .service-1 p,
+  .service-2 p,
+  .service-3 p,
+  .service-4 p {
+    position: static;
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 14px;
+  }
+}

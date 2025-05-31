@@ -1,0 +1,125 @@
+.gallery-banner {
+  position: relative;
+  height: 520px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.gallery-banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.gallery-banner h1 {
+  position: relative;
+  text-align: center;
+  top: 230px;
+  z-index: 1;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.gallery-banner p {
+  position: relative;
+  top: 200px;
+  margin: 0 auto;
+  max-width: 650px;
+  text-align: center;
+  z-index: 1;
+  color: white;
+  padding: 0 20px;
+  line-height: 1.5;
+}
+
+.gallery-container {
+  background-color:white;
+  padding: 20px 5%;
+  min-height: 100vh;
+  color: white;
+}
+
+.gallery-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gallery-header h1 {
+  font-size: 36px;
+  color: #ff4664;
+  margin: 10px;
+}
+
+.gallery-header p {
+  color: black;
+}
+
+.category-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.category-card {
+  background-color: #101d33;
+  padding: 10px;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.category-card .icon {
+  color: #ff4664;
+  width: 25px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.category-card h3 {
+  color: white;
+  font-size: 16px;
+}
+
+.category-card:hover,
+.category-card.active {
+  border-color: #ff4664;
+  transform: scale(1.05);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 60px;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;  /* decreased from whatever it was */
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}

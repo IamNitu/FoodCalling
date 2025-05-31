@@ -1,0 +1,66 @@
+.chef-card {
+  display: flex;
+  max-width:1300px;
+  height: 380px;
+  margin: 60px auto;
+  background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.chef-card-image {
+  flex: 1;
+   min-width: 280px; 
+   max-height: 380px; 
+  overflow: hidden;
+}
+
+.chef-card-image img {
+  width: 100%;
+  height: 100%;
+  background: cover;
+}
+
+.chef-card-content {
+  flex: 1.2;
+  padding: 30px 40px;
+  background-color: #fffdf5;
+}
+
+.chef-card-subtitle {
+  color: #d97706;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.chef-card-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.chef-card-description {
+  font-size: 15px;
+  color: #4b5563;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.chef-card-signature {
+  margin-top: 30px;
+}
+
+.chef-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.chef-role {
+  font-size: 0.95rem;
+  color: #6b7280;
+}

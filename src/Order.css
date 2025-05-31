@@ -1,0 +1,155 @@
+/* order.css */
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px;
+  /* background: linear-gradient(to bottom, #ffffff, #f3f4f6); */
+}
+
+.card {
+  width: 320px;
+    height: 220px; 
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+  z-index: 0;
+  border-radius: 16px;
+}
+
+.card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.card-black {
+  background-color: #000;
+}
+
+.card-orange {
+  background-color: #f97316;
+}
+
+.card-deep-orange {
+  background-color: #c2410c;
+}
+
+.card-subtitle-yellow {
+  color: #facc15;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card-subtitle-light {
+  color: #fde68a;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 8px 0 0 0;
+}
+
+.card-note {
+  font-size: 0.875rem;
+  margin-top: 8px;
+}
+
+.card-order {
+  font-size: 0.875rem;
+  margin-top: 16px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.card-button {
+  background-color: #facc15;
+  color: #000;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background-color: #eab308;
+}
+
+.card-bg-pizza {
+  background-image: url('/pizza.jpg');
+}
+
+.card-bg-fries {
+  background-image: url('/frenchfries.png');
+}
+
+.card-bg-burger {
+  background-image: url('/burger.jpg');
+}
+
+
+
+@media (max-width: 480px) {
+  .card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .card {
+    width: 90%;
+    height: 160px;
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .card-title {
+    font-size: 14px;
+    margin-top: 6px;
+  }
+
+  .card-subtitle-yellow,
+  .card-subtitle-light {
+    font-size: 12px;
+  }
+
+  .card-note {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+
+  .card-order {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+
+  .card-button {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+  }
+}

@@ -1,0 +1,187 @@
+/* Container Layout */
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;
+  background: #f9f9f9;
+  max-width: 1000px;
+  margin: 30px auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Right Side Content */
+.slider-right {
+  width: 100%;
+  padding: 0 30px;
+  text-align: center;
+}
+
+/* Section Titles */
+.slider-subtitle {
+  /* font-style: italic; */
+  color: #0d684f;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.slider-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+/* Each Slide */
+.testimonial-slide {
+  padding: 30px 20px;
+  background: #fff;
+  border-radius: 12px;
+  min-height: 150px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Customer Image */
+.slider-img {
+  width: 450px;
+  height: 300px;
+border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #0d684f;
+}
+
+/* Text Quote */
+.slider-quote {
+    position: relative;
+    top: -250px !important;
+    left: 50%;
+    max-width: 400px;
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+/* Star Rating */
+.slider-rating {
+     position: relative;
+    top: -260px !important;
+    left: 22%;
+  font-size: 18px;
+  color: #00c36d;
+  margin-bottom: 10px;
+}
+
+/* Author */
+.slider-author {
+     position: relative;
+    top: -260px !important;
+    left: 22%;
+  font-size: 13px;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Slick Dots */
+.slick-dots {
+  margin-top: 25px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #0d684f;
+  opacity: 0.5;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #0d684f;
+}
+
+.slick-list{
+    height: 400px;
+}
+
+@media (max-width: 480px) {
+  .slider-container {
+    flex-direction: column;
+    padding: 20px 10px;
+    border-radius: 12px;
+
+  }
+
+  .slider-right {
+    padding: 0 10px;
+  }
+
+  .slider-title {
+    font-size: 14px;
+    margin-bottom: 0px;
+    
+  }
+
+  .slider-subtitle {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .testimonial-slide {
+    padding: 20px 10px;
+    min-height: auto;
+    box-shadow: none;
+    background: transparent;
+  }
+
+  .slider-img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto 15px;
+    border-radius: 8px;
+    border: 2px solid #0d684f;
+  }
+
+  .slider-quote,
+  .slider-rating,
+  .slider-author {
+    position: static !important;
+    left: auto;
+    top: auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .slider-quote {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .slider-rating {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .slider-author {
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+  }
+
+  .slick-list {
+    height: auto;
+  }
+
+  .slick-dots li button:before {
+  font-size: 8px;
+}
+  
+}
+

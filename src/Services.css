@@ -1,0 +1,32 @@
+.service-banner{
+    height: 520px;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.service-banner img{
+    height: 100%;
+    width: 100%;
+    background: cover;
+    opacity: 0.9;
+}
+
+.service-banner h1{
+position: relative;
+top: -60%;
+text-align: center;
+z-index: 1;
+color: white;
+}
+
+.service-banner p{
+   position: relative;
+  top: -65%;
+  margin: 0 auto;
+  max-width: 650px;
+  text-align: center;
+  z-index: 1;
+  color: white;
+  padding: 0 20px;
+  line-height: 1.5;
+}
