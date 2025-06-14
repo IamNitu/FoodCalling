@@ -155,7 +155,7 @@ margin-left: 5px;
   }
 
   .nav-head p{
-    font-size: 14px;
+    font-size: 12px;
     
   }
 
@@ -167,13 +167,13 @@ margin-left: 5px;
   }
 
   .nav-icons {
-
     padding-right: 0;
   }
 
   .select-nav {
+    margin-left: 20px;
     margin-top: 10px;
-    padding-left: 12px;
+    /* padding-left: 2px; */
   }
 
   .main-logo {

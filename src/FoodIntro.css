@@ -186,9 +186,9 @@
   }
 
   .foundation {
-    max-width: 315px;
+    max-width: 280px;
     /* width: 88%; */
-    font-size: 14px;
+    font-size: 12px;
     padding: 8px 12px;
   }
 }
