@@ -93,3 +93,102 @@ color: white;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
 }
+
+
+@media (max-width: 480px) {
+  .menu-banner {
+    height: 280px;
+    padding-bottom: 0px;
+    position: relative;
+  }
+
+  .menu-banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+
+  .menu-banner h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+  }
+
+  .menu-banner p {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    line-height: 14px;
+    z-index: 2;
+  }
+
+  .menu-page {
+    padding: 16px;
+  }
+
+  .search-box {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .search-box input {
+    font-size: 12px;
+    padding: 8px 8px 8px 36px;
+  }
+
+  /* .menu-grid {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 16px;
+    
+  }
+
+  .menu-card{
+      height: 240px;
+  }
+
+  .menu-card img {
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+} */
+
+.menu-grid {/* Decrease card height */
+   grid-template-columns: repeat(2, 1fr); 
+}
+
+.menu-card img {
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.menu-card h3 {
+  font-size: 14px;
+  margin: 8px 0 4px;
+}
+
+.menu-card p {
+  font-size: 12px;
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+
+.menu-card .price {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+}
+
+
