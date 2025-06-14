@@ -209,7 +209,7 @@
   .subscribe-box {
     flex-wrap: nowrap;
     width: 100%;
-    max-width: 100%;
+    /* max-width: 100%; */
     border-radius: 25px;
     overflow: hidden;
     height: 30px;
@@ -218,13 +218,14 @@
   .email-input {
     font-size: 9px;
     width: 100%;
-    padding: 8px;
+    padding: 8px 4px;
   }
 
   .subscribe-btn {
-    padding: 10px 15px;
+    padding: 10px 8px;
     font-size: 10px;
     white-space: nowrap;
+    
   }
 
   .email-icon {

@@ -98,7 +98,7 @@ h1 {
 @media screen and (max-width: 480px) {
   .reservation-container {
     flex-direction: column;
-    padding: 15px;
+    padding: 15px 20px;
     height: auto;
   }
 
@@ -129,7 +129,7 @@ h1 {
     width: 100%;
   }
 
-  h1 {
+   .reservation-left h1 {
     font-size: 14px;
     margin-bottom: 10px;
   }
