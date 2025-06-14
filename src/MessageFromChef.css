@@ -64,3 +64,66 @@
   font-size: 0.95rem;
   color: #6b7280;
 }
+
+
+@media (max-width: 480px) {
+  .chef-card {
+    flex-direction: column;
+    height: auto;
+    margin: 10px 15px;
+    border-radius: 12px;
+  }
+
+  .chef-card-image {
+    width: 100%;
+    height: 240px;
+    max-height: unset;
+  }
+
+  .chef-card-image img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+  }
+
+  .chef-card-content {
+    padding: 15px 16px;
+  }
+
+  .chef-card-subtitle {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .chef-card-title {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .chef-card-description {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+  }
+
+  .chef-card-signature {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .chef-name {
+    font-size: 14px;
+  }
+
+  .chef-role {
+    font-size: 12px;
+  }
+
+  .ourspecialities h1{
+    font-size: 14px;
+    margin: 30px 0 0;
+  }
+}
+
