@@ -186,7 +186,8 @@
   }
 
   .foundation {
-    width: 88%;
+    max-width: 315px;
+    /* width: 88%; */
     font-size: 14px;
     padding: 8px 12px;
   }
