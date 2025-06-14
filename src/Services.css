@@ -30,3 +30,46 @@ color: white;
   padding: 0 20px;
   line-height: 1.5;
 }
+
+
+
+@media (max-width: 480px) {
+  .service-banner {
+    height: 280px;
+    padding-bottom: 0px;
+    position: relative;
+  }
+
+  .service-banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+
+  .service-banner h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+  }
+
+  .service-banner p {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 360px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    line-height: 14px;
+    z-index: 2;
+  }
+}
+
