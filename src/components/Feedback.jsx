@@ -55,7 +55,7 @@ const Feedback = () => {
           {testimonials.map((testimonial, index) => (
             <div key={index} className="testimonial-slide">
              <img  className='slider-img' src={testimonial.image} alt={testimonial.alt} />
-              <p className="slider-quote">❝ {testimonial.text}</p>
+              <p className="slider-quote">❝ {testimonial.text} ❞</p>
               <div className="slider-rating">
                 {'★'.repeat(testimonial.rating)}{'☆'.repeat(5 - testimonial.rating)}
               </div>
