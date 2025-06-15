@@ -45,7 +45,7 @@ const BlogDetail = () => {
        <div className="section intro">
   <h2>Introduction</h2>
   <div className="intro-content">
-    <img src="/wine.jpg" alt="Chef making pasta" className="intro-image" />
+    <img src="/pasta1.jpg" alt="Chef making pasta" className="intro-image" />
 <p>
   Pasta is more than just a food — it’s an experience rooted in centuries of tradition. Across Italian kitchens, 
   the process of making pasta by hand has been passed down from generation to generation. What begins as a humble 
