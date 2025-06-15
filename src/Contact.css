@@ -161,3 +161,87 @@
   margin-bottom: 10px;
 }
 
+
+@media screen and (max-width: 480px) {
+  .contact-banner {
+    height: 280px;
+  }
+
+  .contact-banner h1 {
+    font-size: 14px;
+    top: 30%;
+  }
+
+  .contact-banner p {
+    top: 20%;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0 15px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    padding: 20px 15px 0;
+    gap: 30px;
+  }
+
+  .form-section {
+    padding: 0px;
+    box-shadow: none;
+  }
+
+  .form-section h2 {
+    font-size: 14px;
+    margin-bottom: 10px
+  }
+
+  .form-section input,
+  .form-section textarea {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .form-section button {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .map-section {
+    height: 350px !important;
+  }
+
+  .map-section iframe {
+    height: 100%;
+      min-height: 350px;
+  }
+
+  .contact-info-cards {
+    position: relative;
+    top: -15px !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+  }
+
+  .info-card {
+    max-width: 87%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .info-icon {
+    width: 25px;
+    height: 20px;
+  }
+
+  .info-card h3 {
+    font-size: 14px;
+  }
+
+  .info-card p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
