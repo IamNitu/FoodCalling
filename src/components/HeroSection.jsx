@@ -7,7 +7,7 @@ const HeroSection = () => {
 
   const handleSubscribe = () => {
     if (!email) {
-      alert("Please enter your email address.");
+      alert("Please enter message to know more.");
       return;
     }
 
@@ -42,13 +42,13 @@ const HeroSection = () => {
           <Mail className="email-icon" />
           <input
             type="email"
-            placeholder="Your email address"
+            placeholder="Message for details"
             className="email-input"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <button className="subscribe-btn" onClick={handleSubscribe}>
-            Subscribe
+            Send
           </button>
         </div>
       </div>
