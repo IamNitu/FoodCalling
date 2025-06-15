@@ -200,9 +200,16 @@
 
   .featured-contents {
     position: relative;
-    top: -25px !important;
+    top: -20px !important;
     padding: 10px;
   }
+
+   .featured-contents p{
+    font-size: 12px;
+   }
+   .featured-contents h2{
+    font-size: 14px;
+   }
 
   .blogs-filter {
     gap: 10px;
@@ -236,7 +243,7 @@
 
   .blogs-info p {
     font-size: 12px;
-    line-height: 1.4;
+    line-height: 14px;
   }
 
   .read-more {
